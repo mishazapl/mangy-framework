@@ -1,0 +1,19 @@
+{
+    "name": "root/laravel",
+    "description": "Тренировочный проект Михаила Запаленова",
+    "type": "project",
+    "authors": [
+        {
+            "name": "mishazapl",
+            "email": "mzapalenov@mail.ru"
+        }
+    ],
+    "require": {
+    },
+
+    "autoload": {
+        "psr-4": {
+            "App\\": "app"
+        }
+    }
+}
