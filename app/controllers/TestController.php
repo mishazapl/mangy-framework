@@ -13,6 +13,6 @@ class TestController
 {
     public function test()
     {
-        echo __CLASS__;
+        return view('test', ['language' => 'PHP']);
     }
 }

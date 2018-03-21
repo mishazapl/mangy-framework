@@ -38,7 +38,7 @@ class Route
     public function __destruct()
     {
         if (!isset($this->request[$this->uri])) {
-            App::getApp('helpers')->abort(404, 'Not Found');
+            abort(404, 'Not Found');
         }
 
         $className = $this->request[$this->uri]['class'];
